@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    
+}
+main{
+    width: 1000px;
+    height: 2000px;
+    margin: auto;
+}
+
+.main, .info, .photo, .contact-info{
+    height: 250px;
+    display: flex;
+    background-color: #4777bf;
+}
+
+.info{
+    width: 300px;
+    margin-left: 200px;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.info  h1, h2, h3{
+    padding: 10px 0;
+    color: white;
+}
+
+.contact-info{
+    width: 100px;
+    padding-top: 40px;
+    margin-left: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 10px;
+}
+
+.about{
+    color: #434E5E;
+    background-color: white;
+    padding-top: 20px;
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+}
+.about h2{
+    color: #434E5E;
+}
+
+span {
+    color: #4777bf;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    font-size: 20px;
+  }
