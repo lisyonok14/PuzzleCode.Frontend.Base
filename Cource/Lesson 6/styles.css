@@ -1,0 +1,114 @@
+
+/* font-weight */
+
+
+.main-heading {
+    font-size: 36px; /* Устанавливаем размер шрифта */
+    font-weight: 900; /* Делаем заголовок жирным */
+}
+.intro-text, .tech-list {
+    font-size: 18px; /* Устанавливаем размер шрифта */
+    font-weight: normal; /* Оставляем текст абзацев и списка обычным */
+}
+.section-heading {
+    font-size: 24px; /* Устанавливаем размер шрифта */
+    font-weight: 800; /* Делаем заголовок жирным */
+}
+.page-footer {
+    font-size: 14px; /* Устанавливаем размер шрифта */
+    font-weight: 300; /* Оставляем текст футера обычным */
+}
+
+
+
+
+/* font-style */
+
+.main-heading {
+    font-size: 36px; /* Устанавливаем размер шрифта */
+    font-weight: 900; /* Делаем заголовок жирным */
+    font-style: italic; /* Добавляем наклонный стиль для заголовка */
+}
+.intro-text, .tech-list {
+    font-size: 18px; /* Устанавливаем размер шрифта */
+    font-weight: normal; /* Оставляем текст абзацев и списка обычным */
+    font-style: normal; /* Оставляем текст абзацев и списка обычным стилем */
+}
+.section-heading {
+    font-size: 24px; /* Устанавливаем размер шрифта */
+    font-weight: 800; /* Делаем заголовок жирным */
+    font-style: normal; /* Оставляем заголовок второго уровня обычным стилем */
+}
+.page-footer {
+    font-size: 14px; /* Устанавливаем размер шрифта */
+    font-weight: 300; /* Оставляем текст футера обычным */
+    font-style: italic; /* Добавляем наклонный стиль для текста в футере */
+}
+
+
+/* font-family*/
+
+.main-heading {
+    font-size: 36px; /* Устанавливаем размер шрифта */
+    font-weight: 900; /* Делаем заголовок жирным */font-style: italic; /* Добавляем наклонный стиль для заголовка */
+    font-family: 'Arial', sans-serif; /* Шрифт Arial, если нет - использовать sans-serif */
+  }
+  .intro-text, .tech-list {
+      font-size: 18px; /* Устанавливаем размер шрифта */
+        font-weight: normal; /* Оставляем текст абзацев и списка обычным */
+        font-style: normal; /* Оставляем текст абзацев и списка обычным стилем */
+        font-family: 'Helvetica', Arial, sans-serif; /* Шрифт Helvetica, если нет - использовать Arial, если нет - использовать sans-serif */
+  }
+  .section-heading {
+      font-size: 24px; /* Устанавливаем размер шрифта */
+        font-weight: 800; /* Делаем заголовок жирным */
+        font-style: normal; /* Оставляем заголовок второго уровня обычным стилем */
+        font-family: 'Georgia', Times New Roman, serif; /* Шрифт Georgia, если нет - использовать Times New Roman, если нет - использовать serif */
+  }
+  .page-footer {
+      font-size: 14px; /* Устанавливаем размер шрифта */
+        font-weight: 300; /* Оставляем текст футера обычным */
+        font-style: italic; /* Добавляем наклонный стиль для текста в футере */
+        font-family: 'Verdana', Arial, sans-serif; /* Шрифт Verdana, если нет - использовать Arial, если нет - использовать sans-serif */
+  }
+
+
+/* line-height*/
+
+.main-heading {
+    font-size: 36px; /* Устанавливаем размер шрифта */
+    font-weight: 900; /* Делаем заголовок жирным */font-style: italic; /* Добавляем наклонный стиль для заголовка */
+    font-family: 'Arial', sans-serif; /* Шрифт Arial, если нет - использовать sans-serif */
+    line-height: 1.5; /* Значение в числовом формате (множитель относительно размера шрифта) */
+}
+
+.intro-text, .tech-list {
+    font-size: 18px; /* Устанавливаем размер шрифта */
+    font-weight: normal; /* Оставляем текст абзацев и списка обычным */
+    font-style: normal; /* Оставляем текст абзацев и списка обычным стилем */
+    font-family: 'Helvetica', Arial, sans-serif; /* Шрифт Helvetica, если нет - использовать Arial, если нет - использовать sans-serif */
+    line-height: 24px; /* Значение в пикселях (фиксированная высота строки) */
+    text-align: center;
+}
+.section-heading {
+    font-size: 24px; /* Устанавливаем размер шрифта */
+    font-weight: 800; /* Делаем заголовок жирным */
+    font-style: normal; /* Оставляем заголовок второго уровня обычным стилем */
+    font-family: 'Georgia', Times New Roman, serif; /* Шрифт Georgia, если нет - использовать Times New Roman, если нет - использовать serif */
+    line-height: 1.2; /* Значение в числовом формате (множитель относительно размера шрифта) */
+}
+.page-footer {
+    font-size: 14px; /* Устанавливаем размер шрифта */
+    font-weight: 300; /* Оставляем текст футера обычным */
+    font-style: italic; /* Добавляем наклонный стиль для текста в футере */
+    font-family: 'Verdana', Arial, sans-serif; /* Шрифт Verdana, если нет - использовать Arial, если нет - использовать sans-serif */
+    line-height: 1.8; /* Значение в числовом формате (множитель относительно размера шрифта) */
+}
+
+.page-footer {
+    color: rgba(255, 0, 0, 0.5);
+  }
+
+.tech-list{
+    background-image: url('background.png');
+}
