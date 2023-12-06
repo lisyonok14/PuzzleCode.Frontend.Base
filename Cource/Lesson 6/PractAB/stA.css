@@ -1,0 +1,60 @@
+ul li:nth-child(1){
+    color: aqua;
+}
+
+ul li:nth-child(2){
+    color: #4982a5;
+
+}
+ul li:nth-child(3){
+    color: rgb(170, 102, 153);
+}
+
+ul li:nth-child(4){
+    color: rgba(255, 0, 255, 0.5);
+}
+ul li:nth-child(5){
+    color: #6fdf7c;
+}
+ul li:nth-child(6){
+    color: #fb300d;
+}
+
+.wildlife-title{
+    font-size: 44px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Arial, sans-serif;   
+}
+
+.wildlife-description{
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Arial, sans-serif;
+}
+
+.wildlife-image{
+    background-image: url(oo.jpeg);
+    width: 400px;
+    height: 360px;
+    background-position: center;
+}
+
+ul{
+    list-style:none; 
+    margin: 0; 
+    padding: 0;
+}
+li{
+    font-size: 24px;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    width: 400px;
+    border: 2px black solid;
+    padding: 10px 120px;
+    margin: 20px;
+    background-image: url(kap.jpeg);
+    background-repeat: no-repeat;
+}
