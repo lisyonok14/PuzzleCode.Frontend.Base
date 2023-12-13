@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: inline-block;
+    padding: 7px;
+    border: 1px solid rgb(70, 70, 70);
+    margin: 10px 5px;
+}
+.z img{
+    height: 200px;
+    position: absolute;
+    top: 500px;
+    right: 800px;
+    z-index: 1;
+}
+.z{
+    height: 200px;
+    border: none;
+}
+img{
+    height: 500px;
+    
+}
+p{
+    font-size: 30px;
+    float: left;
+
+}
