@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 1920px;
+    height: 954px;
+    background-image: url(images/back-main.png);
+}
+.main-text{
+    width: 730px;
+    height: 452px;
+    padding-top: 268px;
+    padding-left: 240px;
+}
+.m1{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+h1{
+    color: #F7C35F;
+    margin-top: 37px;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.m2{
+    color: white;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.m3{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 730px;
+    margin: 30px 0;
+}
+button{
+    margin-top: 30px;
+    padding: 25px 50px;
+    border: none;
+    border-radius: 20px;
+    background: #F7C35F;
+    color: #1A1A1A;
+
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.mf{
+    position: absolute;
+    top: 314px;
+    left: 804px;
+}
+
+
+.bl2{
+    width: 1920px;
+    height: 656px;
+    background-color: #334B35;
+}
+.bl2-txt{
+    width: 665px;
+    height: 113px;
+    display: inline-flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 78px;
+    margin-left: 628px;
+}
+.bl2-txt p{
+    color: white;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.bl2-txt h2{
+    color: white;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+.cards{
+    width: 1550px;
+    height: 177px;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+.card{
+    width: 183px;
+    height: 177px;
+    margin-left: 60px;
+    display: inline-block;
+    border-radius: 15px;
+    background: #445945;
+    padding: 0 5px;
+}
+.card p{
+    width: 108px;
+    color: white;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 37px;
+}
+.card img{
+    width: 60px;
+    height: 60px;
+    margin-top: 36px;
+    margin-left: 64px;
+}
+
+.bl3{
+    width: 1920px;
+    height: 694px;
+    background-image: url(images/back3.png);
+}
+.bl3-txt{
+    padding-top: 284px;
+    padding-left: 240px;
+}
+.bl3-txt p{
+    color: white;
+    width: 609px;
+    height: 126px;
+    
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bl4{
+    width: 1920px;
+    height: 853px;
+    background: #263C28;
+    background-image: url(images/back4.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.bl4-txt{
+    width: 489px;
+    height: 113px;
+    display: inline-flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+    margin-left: 716px;
+}
+.t1{
+    color: white;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.t2{
+    color: white;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+.cards4{
+    width: 1550px;
+    margin-top: 100px;
+    margin-left: 239px;
+}
+.card4{
+    width: 318px;
+    height: 350px;
+    display: inline-block;
+    margin-right: 56px;
+    border-radius: 10px;
+}
+.card4:nth-child(1){
+    background-image: url(images/card1.svg);
+}
+.card4:nth-child(2){
+    background-image: url(images/card2.svg);
+}
+.card4:nth-child(3){
+    background-image: url(images/card3.svg);
+}
+.card4:nth-child(4){
+    background-image: url(images/card4.svg);
+}
+
+.card4-txt{
+    height: 66px;
+    margin-top: 264px;
+    margin-left: 25px;
+}
+.ct1{
+    color: #F7C35F;
+
+font-family: Livvic;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.ct2{
+    color: #FFF;
+    width: 133px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
