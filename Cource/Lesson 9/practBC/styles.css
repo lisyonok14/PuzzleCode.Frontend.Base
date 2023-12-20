@@ -163,6 +163,7 @@ button{
     background-image: url(images/back4.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    position: relative;
 }
 .bl4-txt{
     width: 489px;
@@ -218,10 +219,7 @@ button{
 
 .card4-txt{
     height: 66px;
-    /* margin-top: 264px;
-    margin-left: 25px; */
     position: absolute;
-    /* bottom: 0; */
     top: 264px ;
     left: 25px;
 }
@@ -248,4 +246,14 @@ button{
     position: absolute;
     top: 285px;
     right: 25px;
+}
+
+.dots{
+    width: 54px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 100px;
+    left: 933px;
 }
